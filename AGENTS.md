@@ -77,15 +77,18 @@ Kerjakan modul **Fikih terlebih dahulu**, lalu Siroh, mengikuti urutan kelas:
 ### 4.3 Ayat Al-Qur'an & Hadits
 - **WAJIB** dicantumkan. Jangan pernah dihapus atau diringkas.
 - Tulis teks Arab-nya secara utuh di **baris tersendiri** (karena Right-to-Left).
-- Sertakan sumber rujukan (nama surah + nomor ayat, atau nama kitab hadits + nomor).
-- Format contoh di Google Docs:
+- Sertakan sumber rujukan (nama surah + nomor ayat, atau nama kitab hadits + nomor/perawi sesuai aslinya).
+- Sertakan **terjemahan Bahasa Indonesia** tepat di bawah sumber rujukan agar mudah dipahami murid.
+- Format contoh:
 
 ```
 ﴿ لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ ﴾
 (QS. Al-Ahzab: 21)
+*"Sungguh, telah ada pada (diri) Rasulullah itu suri teladan yang baik bagimu."*
 
 «مَنْ يُرِدِ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ»
 (HR. Bukhari: 71, Muslim: 1037)
+*"Barang siapa yang Allah kehendaki kebaikan baginya, maka Allah akan memahamkannya dalam urusan agama."*
 ```
 
 ---
@@ -106,11 +109,19 @@ Halaman-halaman berikut **jangan diterjemahkan** dan **tidak dimasukkan** ke Goo
 ### 5.2 Urutan Konten Per Bab (Fikih)
 
 ```
-[INTISARI PEMBAHASAN]
-[Terjemahan isi bab — Matan]
+# Judul Bab **(1)**
+
+[INTISARI PEMBAHASAN — 2–4 kalimat ramah remaja, tanpa label]
+
+### Matan
+[Terjemahan isi bab — Matan, dengan penanda **(1)**, **(2)**, dst.]
+
 ---
-[Terjemahan Syarah]
-[Footnote / catatan kaki]
+
+### Catatan Kaki
+[Terjemahan seluruh Syarah / footnote bernomor **(1)**, **(2)**, dst.]
+
+[Bagan Bahasa Indonesia jika ada]
 [Pertanyaan (As-ilah) jika ada]
 ```
 
@@ -123,16 +134,16 @@ Halaman-halaman berikut **jangan diterjemahkan** dan **tidak dimasukkan** ke Goo
 
 > *Pada bagian ini kita akan belajar tentang sujud sahwi, yaitu sujud yang dilakukan ketika kita lupa atau salah dalam sholat. Memahami ini penting agar sholat kita tetap sah dan sesuai tuntunan.*
 
-### 5.4 Matan vs Syarah
-- **Matan** (teks utama kitab) → diterjemahkan di bagian atas.
-- **Syarah** (penjelasan/komentar) → diterjemahkan di bagian bawah.
-- Keduanya **dipisahkan dengan garis horizontal (`---`)** di Google Docs.
+### 5.4 Matan vs Catatan Kaki (Syarah)
+- **Matan** (teks utama kitab) → diterjemahkan di bagian atas di bawah label **`Matan`**.
+- **Catatan Kaki** (Syarah/penjelasan/komentar) → diterjemahkan di bagian bawah di bawah label **`Catatan Kaki`**.
+- Keduanya **dipisahkan dengan garis horizontal (`---`)** dan label eksplisit **"Matan"** & **"Catatan Kaki"**.
 - Khusus Fikih saja. Siroh tidak memiliki pemisah ini.
 
 ### 5.5 Footnote / Catatan Kaki
-- **Wajib dimasukkan** ke dalam hasil terjemahan.
-- Letakkan setelah bagian Syarah terkait, dalam format yang lebih kecil atau dengan label nomor yang sama.
-- Terjemahkan isi footnote menggunakan bahasa yang tetap ringan dan mudah dipahami.
+- **Wajib dimasukkan** seluruhnya ke dalam hasil terjemahan tanpa diringkas.
+- Gunakan format **angka dalam kurung tebal** (`**(1)**`, `**(2)**`, dst.), baik di dalam teks Matan maupun di daftar Catatan Kaki.
+- Terjemahkan isi footnote menggunakan bahasa yang tetap ringan dan mudah dipahami remaja usia 13–15 tahun.
 
 ### 5.6 Bagan / Diagram di Fikih
 Jika ada bagan/diagram dalam bahasa Arab:
@@ -300,10 +311,11 @@ Sebelum push ke GitHub dan submit ke Google Docs, pastikan:
 - `master.pdf` sebagai referensi sekunder jika gambar kurang jelas.
 - Untuk halaman yang teksnya berdempetan atau sulit dibaca, andalkan kedua sumber tersebut.
 
-### 11.2 Footnote di Fikih
-- Footnote biasanya ada di bagian bawah halaman, dipisah garis tipis, dengan nomor superscript.
+### 11.2 Footnote / Catatan Kaki di Fikih
+- Footnote biasanya ada di bagian bawah halaman, dipisah garis tipis, dengan nomor dalam kurung (`(١)`, `(٢)`, dst.) yang berisi Syarah kitab.
 - Meskipun teknis, tetap terjemahkan dengan bahasa yang ringan dan mudah.
-- Nomor footnote dipertahankan agar sesuai dengan angka superscript di dalam teks.
+- Gunakan format kurung tebal (`**(1)**`, `**(2)**`, dst.).
+- Jika satu bagian Matan (Bab atau Fasal) bersambung lintas beberapa halaman, penomoran catatan kaki dibuat **menyambung berurutan** di dalam satu bagian tersebut (misal `**(1)**`–`**(25)**`) agar teks Matan tetap utuh dan tidak ada nomor catatan kaki yang ganda, lalu di-reset kembali ke `**(1)**` pada Fasal/Bab berikutnya.
 
 ### 11.3 Halaman yang Meragukan
 - Jika ragu apakah halaman termasuk SKIP atau tidak → **masukkan saja** (lebih aman).
