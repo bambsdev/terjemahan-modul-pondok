@@ -39,7 +39,8 @@ d:\proyek terjemahan modul pondok\
 ├── siroh kelas 7 semester 1\
 │   ├── master.pdf
 │   ├── gambar\
-│   ├── gambar_ilustrasi_asli\         ← (dibuat agent) hasil crop ilustrasi asli
+│   ├── gambar_ilustrasi_asli\         ← (dibuat agent) hasil crop ilustrasi/peta asli
+│   ├── gambar_ilustrasi_indonesia\    ← (dibuat agent) ilustrasi/peta dengan teks Indonesia
 │   └── output\
 ├── siroh kelas 8 semester 1\
 │   └── [sama dengan siroh 7]
@@ -179,10 +180,12 @@ Sama seperti Fikih (lihat 5.1), ditambah:
 - Boleh gunakan `ul` / `ol` untuk memudahkan pemahaman.
 
 ### 6.3 Ilustrasi di Siroh
-- Ilustrasi (gambar, foto, peta, dsb.) **jangan diubah** dan **jangan ditranslasikan**.
-- Harus tetap sama persis seperti aslinya.
-- **Langkah wajib:** Crop gambar ilustrasi dari halaman JPG → simpan ke `gambar_ilustrasi_asli\` dengan nama `ilustrasi_hal_XXX.jpg`.
-- Tempel ilustrasi asli tersebut ke Google Docs pada posisi yang sesuai.
+- Desain visual, foto, dan peta asli **jangan diubah bentuk atau gambarnya** — harus tetap sesuai aslinya.
+- Namun **seluruh teks Arab yang ada di dalam gambar, foto, maupun peta wajib ditranslasikan ke Bahasa Indonesia** (termasuk judul, legenda, label wilayah, dan keterangan sumber).
+- **Langkah wajib:**
+  1. **Crop** gambar ilustrasi/peta asli dari halaman JPG → simpan ke `gambar_ilustrasi_asli\` dengan nama `ilustrasi_hal_XXX.jpg`.
+  2. **Buat versi Bahasa Indonesia** dengan mempertahankan visual/foto/peta aslinya dan mengganti seluruh teks Arab ke Bahasa Indonesia → simpan ke `gambar_ilustrasi_indonesia\` dengan nama `ilustrasi_hal_XXX_id.jpg`.
+  3. **Tempel** ilustrasi versi Bahasa Indonesia tersebut ke Google Docs pada posisi yang sesuai.
 
 ### 6.4 Pertanyaan (As-ilah) di Siroh
 - Sama seperti Fikih — wajib ada, diteliti akurasinya, format nomor (`ol`).
@@ -207,7 +210,7 @@ Sama seperti Fikih (lihat 5.1), ditambah:
 
 ### 7.3 Penyisipan Gambar
 - Gambar bagan Bahasa Indonesia (Fikih) disisipkan tepat pada posisi yang sesuai dengan konteks teks.
-- Ilustrasi asli (Siroh) disisipkan tepat pada posisi aslinya.
+- Ilustrasi dan peta versi Bahasa Indonesia (Siroh) disisipkan tepat pada posisi aslinya.
 
 ---
 
@@ -235,8 +238,8 @@ Gunakan branch terpisah untuk setiap modul:
 
 ### 8.3 Yang Disimpan di GitHub
 - File markdown hasil terjemahan (di folder `output\`)
-- File gambar bagan Bahasa Indonesia (`gambar_bagan_indonesia\`)
-- File gambar ilustrasi asli yang sudah di-crop (`gambar_ilustrasi_asli\`)
+- File gambar bagan Bahasa Indonesia (`gambar_bagan_indonesia\`) dan arsip bagan asli (`gambar_bagan_asli\`)
+- File gambar ilustrasi asli (`gambar_ilustrasi_asli\`) dan ilustrasi versi Bahasa Indonesia (`gambar_ilustrasi_indonesia\`)
 - File `AGENTS.md` ini (di root)
 
 > **JANGAN** push file `master.pdf` atau folder `gambar\` (terlalu besar).
@@ -297,6 +300,7 @@ Sebelum push ke GitHub dan submit ke Google Docs, pastikan:
 - [ ] Footnote sudah diterjemahkan dan dimasukkan
 - [ ] Bagan asli sudah di-crop dan disimpan di `gambar_bagan_asli\`
 - [ ] Bagan versi Indonesia sudah dibuat dan disisipkan di Google Docs
+- [ ] Ilustrasi/peta Siroh: visual asli tetap utuh, seluruh teks Arab ditranslasikan ke Bahasa Indonesia (`gambar_ilustrasi_indonesia\`) dan disisipkan di Google Docs
 - [ ] Pertanyaan (As-ilah) sudah diteliti akurasinya
 - [ ] Tabel jadwal mingguan (Siroh) sudah dihapus/skip
 - [ ] Tidak ada materi tambahan dari luar modul asli
